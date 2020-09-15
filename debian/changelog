@@ -1,0 +1,56 @@
+qtscxml-everywhere-src (5.15.1-0) focal; urgency=medium
+
+  * New focal release 5.15.1
+  * Remove make/run test while building package
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Tue, 15 Sep 2020 14:24:12 +0200
+
+qtscxml-everywhere-src (5.14.2-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 24 Jun 2020 12:50:11 +0300
+
+qtscxml-everywhere-src (5.14.2-1) experimental; urgency=medium
+
+  * New upstream release (closes: #959663).
+  * Bump Qt build-dependencies to 5.14.2.
+  * Update to debhelper compat level 13.
+    - Build-depend on debhelper-compat virtual package.
+    - Drop dh_missing override, no longer needed.
+  * Drop unneeded build-dependency on doc-base.
+  * Add support for nocheck build profile.
+  * Update debian/libqt5scxml5.symbols from buildds’ and the current log.
+    - Mark QStringRef::compare symbol as optional (closes: #957733).
+  * Make libqt5scxml5-dev depend on libqt5scxml5-bin (closes: #953435).
+  * Bump Standards-Version to 4.5.0, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 06 May 2020 18:23:18 +0300
+
+qtscxml-everywhere-src (5.12.5-2) unstable; urgency=medium
+
+  * Update debian/libqt5scxml5.symbols from armel log.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 21 Oct 2019 19:24:07 +0300
+
+qtscxml-everywhere-src (5.12.5-1) experimental; urgency=medium
+
+  [ Scarlett Moore ]
+  * Improve the doc-base file.
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.12.5.
+  * Update debian/libqt5scxml5.symbols from buildds’ logs.
+  * Add myself and Lisandro to Uploaders.
+  * Bump Standards-Version to 4.4.1, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 18 Oct 2019 12:53:10 +0300
+
+qtscxml-everywhere-src (5.12.2-1) experimental; urgency=medium
+
+  [ Scarlett Moore ]
+  * Initial release (Closes: #880516)
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 14 Apr 2019 10:17:18 +0300
